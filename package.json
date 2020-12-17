@@ -1,0 +1,32 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "MEAN stack Shopping app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "4.16.2",
+    "express-session": "^1.17.1",
+    "express-validator": "^5.3.1",
+    "googleapis": "^66.0.0",
+    "jsonwebtoken": "8.1.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.8",
+    "multer": "^1.4.2",
+    "node-input-validator": "^3.8.0",
+    "passport": "0.4.0",
+    "passport-jwt": "3.0.1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/cli": "^11.0.4",
+    "nodemon": "^2.0.6"
+  }
+}
